@@ -3,7 +3,7 @@
 " An example for a Japanese version vimrc file.
 " 日本語版のデフォルト設定ファイル(vimrc) - Vim7用試作
 "
-" Last Change: 23-Jun-2014.
+" Last Change: 25-Jun-2014.
 " Maintainer:  MURAOKA Taro <koron.kaoriya@gmail.com>
 "
 " 解説:
@@ -404,3 +404,11 @@ function! s:GetHighlight(hi)
   return hl
 endfunction
 """"""""""""""""""""""""""""""
+imap <c-j> <esc>
+
+" 挿入モード終了時に IME 状態を保存しない
+"inoremap <silent> <Esc> <Esc>
+"inoremap <silent> <C-[> <Esc>
+
+" 「日本語入力固定モード」切り替えキー
+"inoremap <silent> <C-j> <C-^>
