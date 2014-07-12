@@ -3,7 +3,7 @@
 " An example for a Japanese version vimrc file.
 " 日本語版のデフォルト設定ファイル(vimrc) - Vim7用試作
 "
-" Last Change: 25-Jun-2014.
+" Last Change: 12-Jul-2014.
 " Maintainer:  MURAOKA Taro <koron.kaoriya@gmail.com>
 "
 " 解説:
@@ -176,6 +176,7 @@ set title
 " 画面を黒地に白にする (次行の先頭の " を削除すれば有効になる)
 "colorscheme evening " (Windows用gvim使用時はgvimrcを編集すること)
 "colorscheme molokai
+colorscheme darkblue 
 "syntax on
 
 "---------------------------------------------------------------------------
