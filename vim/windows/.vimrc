@@ -178,3 +178,9 @@ if has('multi_byte_ime') || has('xim') || has('gui_macvim')
   " Normal mode: IME off
   inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 endif
+
+
+""""""""""""""""""""""""""""""
+" クリップボードにコピーする
+"
+set clipboard=unnamed,autoselect
